@@ -1,0 +1,29 @@
+div.square {
+    border: 1px solid black;
+    background-color: white;
+}
+
+.square:hover {
+    background-color: orange;
+}
+
+.container {
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+body {
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.button {
+    width: 100x;
+    height: 30px;
+    align-self: center;
+}
